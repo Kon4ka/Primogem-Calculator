@@ -734,6 +734,7 @@ namespace WindowsFormsApp1
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.Primogem;
             this.pictureBox2.Location = new System.Drawing.Point(464, 397);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(85, 80);
@@ -743,6 +744,7 @@ namespace WindowsFormsApp1
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Item_Intertwined_Fate;
             this.pictureBox1.Location = new System.Drawing.Point(464, 521);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(85, 88);
@@ -752,6 +754,7 @@ namespace WindowsFormsApp1
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.Genshin_Impact_Undine__Autor_s_OC_1;
             this.pictureBox3.Location = new System.Drawing.Point(233, 384);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(254, 243);

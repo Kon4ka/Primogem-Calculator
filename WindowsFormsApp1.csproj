@@ -90,13 +90,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dates.jpg" />
+    <EmbeddedResource Include="dates.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Item_Intertwined_Fate.png" />
+    <EmbeddedResource Include="Item_Intertwined_Fate.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Primogem.png" />
+    <EmbeddedResource Include="Primogem.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Genshin Impact Undine %28Autor%27s OC%29.png" />
