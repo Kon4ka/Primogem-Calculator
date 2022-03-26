@@ -135,6 +135,11 @@ namespace WindowsFormsApp1
                     int st_zl = System.Convert.ToInt32(comboBox6.Text);
                     int ed_et = System.Convert.ToInt32(comboBox4.Text);
                     int ed_zl = System.Convert.ToInt32(comboBox5.Text);
+                    if (st_et > ed_et)
+                    {
+                        MessageBox.Show("Неверно задано значение Этажей");
+                        return;
+                    }
                     int star_zals = 0;
                     int star_high_zals = 0;
 
@@ -245,5 +250,39 @@ namespace WindowsFormsApp1
             comboBox3.Visible = !comboBox3.Visible;
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            checkBox1.Checked = true;
+            checkBox2.Checked = true;
+            checkBox3.Checked = true;
+            checkBox4.Checked = true;
+            checkBox5.Checked = true;
+            comboBox1.Text = "1";
+            checkBox6.Checked = true;
+            checkBox7.Checked = true;
+
+            textBox4.Text = "5";
+            checkBox8.Checked = true;
+            checkBox9.Checked = true;
+            comboBox2.Text = "36";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            comboBox1.Text = "0";
+            checkBox6.Checked = false;
+            checkBox7.Checked = false;
+
+            textBox4.Text = "0";
+            checkBox9.Checked = false;
+            comboBox2.Text = "0";
+        }
+
     }
 }
