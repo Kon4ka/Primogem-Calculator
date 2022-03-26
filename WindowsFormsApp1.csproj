@@ -98,5 +98,8 @@
   <ItemGroup>
     <None Include="Primogem.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Genshin Impact Undine %28Autor%27s OC%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

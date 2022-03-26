@@ -73,6 +73,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Genshin_Impact_Undine__Autor_s_OC_ {
+            get {
+                object obj = ResourceManager.GetObject("Genshin Impact Undine (Autor\'s OC)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Genshin_Impact_Undine__Autor_s_OC_1 {
+            get {
+                object obj = ResourceManager.GetObject("Genshin Impact Undine (Autor\'s OC)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Item_Intertwined_Fate {
             get {
                 object obj = ResourceManager.GetObject("Item_Intertwined_Fate", resourceCulture);
